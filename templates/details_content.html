@@ -1,0 +1,26 @@
+
+<ion-view hide-nav-bar="true">
+	<ion-modal-view>
+		<!-- <ion-nav-title>
+			<img class="header_img" src="images/logo_03.png" alt="">
+		</ion-nav-title> -->
+		<ion-header-bar>
+			<div class="buttons">
+				<div class="btn_img" ng-click="close()" ui-sref="details({relicId:imgObj.id})">
+					<img src="images/dt_j_03.png">
+				</div>
+			</div>
+			<h1 class="title title_text" ng-style="{'background-image':'url({{backtitle}})'}">{{imgObj.name}}</h1>
+		</ion-header-bar>
+		<ion-content>
+			<div class="Btn_content">
+				<ul class="list_ul" ng-style="{'background-image':'url({{backurl1}})'}">
+					<li class="list_details clearfix" ng-repeat="x in imgObj.content">
+						<span>{{x.name}}</span>
+						<span>{{x.content}}</span>
+					</li>
+				</ul>
+			</div>
+		</ion-content>
+	</ion-modal-view>
+</ion-view>

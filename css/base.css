@@ -1,0 +1,136 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-03-02 09:31:48
+ * @version $Id$
+ */
+
+a{
+	text-decoration:none; 
+}
+p{
+	margin:0;
+}
+button{
+	border:0;
+}
+.clearfix:after {
+	content: " ";
+	display: block;
+	clear: both;
+	height: 0;
+}
+.clearfix {
+	zoom: 1;
+}
+html{
+	font-family: "微软雅黑"!important;
+}
+body{
+	font-size:1.2rem!important;
+}
+ion-view{
+	background-size: 100% 100%!important;
+	background-repeat: no-repeat!important;
+}
+.bar, .title{
+	height:4.17rem!important;
+	line-height: 4.17rem!important;
+}
+.bar-positive .button.button-clear{
+	font-size: 1.4rem;
+}
+.bar .button{
+	min-height:100%!important;
+}
+.header_img{
+	vertical-align: middle;
+	width:1.66rem;
+	padding:.76rem 0;
+}
+.has-header{
+	top:4.17rem!important;
+}
+/*header{
+	position: fixed!important;
+	width:100%;
+	text-align: center;
+ }
+header>img{
+	vertical-align: middle;
+	width:1.66rem;
+	padding:.76rem 0;
+}*/
+.item{
+	margin: 0!important;
+	padding: 0!important;
+	border: 0!important;
+	background-color: #F7F7F7;
+}
+.icon_img{
+	height:2rem;
+}
+.tabs-positive>.tabs, .tabs.tabs-positive {
+    border-color: #000;
+    background-color: #000;
+    background-image: linear-gradient(0deg,#000,#000 50%,transparent 50%);
+    color: #d2b17d;
+}
+.tabs-striped.tabs-positive,
+ .tab-item.tab-item-active,
+ .tabs-striped.tabs-positive .tab-item{
+	color: #d2b17d!important;
+}
+@media not all, (-webkit-min-device-pixel-ratio: 1.5), not all, (min-resolution: 144dpi), (min-resolution: 1.5dppx){
+	.tabs {
+	     padding-top: 0px!important; 
+	}
+	.bar{
+		background-image:none!important;
+	}
+}
+.tab-item{
+	height: 3.58rem!important;
+	background: url(../images/dt_w3_03.png) no-repeat!important;
+    	background-size: 100% 100%!important;
+    	max-width:100%!important;
+    	font-size:1.2rem!important;
+    	line-height:3.58rem!important;
+}
+.tab-item.activated,
+.tab-item.active, 
+.tab-item.tab-item-active{
+	background-color:#fff!important;
+}
+.tabs{
+	height:3.58rem!important;
+}
+.tabs-striped.tabs-positive .tabs {
+    background-color: #000!important;
+}
+div.buttons{
+	padding: 0 1%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+html{font-size:10px;}
+@media screen and (min-width:321px) and (max-width:375px){html{font-size:11px;}}
+@media screen and (min-width:376px) and (max-width:414px){html{font-size:12px;}}
+@media screen and (min-width:415px) and (max-width:639px){html{font-size:15px;}}
+@media screen and (min-width:640px) and (max-width:719px){html{font-size:20px}}
+@media screen and (min-width:720px) and (max-width:749px){html{font-size:22.5px;}}
+@media screen and (min-width:750px) and (max-width:799px){html{font-size:23.5px;}}
+@media screen and (min-width:800px){html{font-size:25px;}}

@@ -1,0 +1,44 @@
+
+<ion-view hide-nav-bar="true" hide-back-button="true" class="login">
+	<ion-nav-title>
+		<img class="header_img" src="images/logo_03.png" alt="">
+	</ion-nav-title>
+	<ion-content>
+		<div class="main_img">
+			<img src="images/dl_qz_03.png" alt="">
+		</div>
+		<form class="main_form" name="myForm" novalidate>
+			<div class="list btn_list">
+				<div class="item_border">
+					<div class="item_form clearfix">
+						<label>
+							<img src="images/dl_mm_10.png" alt="">
+							<span>手机号码：</span>
+						</label>
+						<input type="email" name="email" ng-model="email" required>
+					</div>
+				</div>
+				<div style="color:red;text-align: center;" ng-show="myForm.email.$dirty && myForm.email.$invalid">
+					<span ng-show="myForm.email.$error.required">邮箱是必须的。</span>
+					<span ng-show="myForm.email.$error.email">非法的邮箱。</span>
+				</div>
+				<div class="item_border pass_word">
+					<div class="item_form">
+						<label class="second_label">
+							<img src="images/dl_mm_10.png" alt="">
+							<span>请输入短信验证码：</span>
+						</label>
+						<input class="text_pass" type="text">
+						<span>发送短信</span>
+					</div>
+				</div>
+			</div>
+			<div class="btn_lo" ui-sref="main" ng-click="loading()">登录</div>
+			<div class="account">
+				<a href="">微信登录</a>
+			</div>
+		</form>
+	</ion-content>
+</ion-view>
+
+

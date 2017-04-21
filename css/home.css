@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-03-16 10:13:08
+ * @version $Id$
+ */
+ .wel{
+ 	position:relative;
+ }
+.wel>img:nth-child(1){
+	width:68%;
+}
+.wel:nth-child(1)>img:nth-child(2){
+	width:29.86%;
+	position:absolute;
+	left:23%;
+	top:16rem;
+	animation:mytext 3s ease-in-out 3s;
+	-webkit-animation:mytext 3s ease-in-out 3s; 
+	-o-animation:mytext 3s ease-in-out 3s;
+	-moz-animation:mytext 3s ease-in-out 3s; 
+	-ms-animation:mytext 3s ease-in-out 3s; 
+}
+.wel:nth-child(2)>img:nth-child(2){
+	width:29.86%;
+	position:absolute;
+	right:20%;
+	bottom:5rem;
+	animation:mytexts 3s ease-in-out 3s;
+	-webkit-animation:mytexts 3s ease-in-out 3s; 
+	-o-animation:mytexts 3s ease-in-out 3s;
+	-moz-animation:mytexts 3s ease-in-out 3s; 
+	-ms-animation:mytexts 3s ease-in-out 3s;
+}
+.wel:nth-child(1)>img:nth-child(1){
+	position:absolute;
+	left: 2%;
+	top: 2rem;
+	animation:myfirst 1s ease-in-out 3s;
+	-webkit-animation:myfirst 1s ease-in-out 3s; 
+	-o-animation:myfirst 1s ease-in-out 3s;
+	-moz-animation:myfirst 1s ease-in-out 3s; 
+	-ms-animation:myfirst 1s ease-in-out 3s; 
+}
+.wel:nth-child(2)>img:nth-child(1){
+	position:absolute;
+	right: 2%;
+	bottom: 2rem;
+	animation:mysecond 1s ease-in-out 3s;
+	-webkit-animation:mysecond 1s ease-in-out 3s; 
+	-o-animation:mysecond 1s ease-in-out 3s;
+	-moz-animation:mysecond 1s ease-in-out 3s; 
+	-ms-animation:mysecond 1s ease-in-out 3s; 
+}
+

@@ -1,0 +1,124 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-03-16 15:46:22
+ * @version $Id$
+ */
+
+ @keyframes myfirst
+{
+	from {left:-80%;}
+	to {left:2%;}
+}
+
+@-webkit-keyframes myfirst
+{
+	from {left:-80%;}
+	to {left:2%;}
+}
+
+@-moz-keyframes myfirst 
+{
+	from {left:-80%;}
+	to {left:2%;}
+}
+
+@-o-keyframes myfirst 
+{
+	from {left:-80%;}
+	to {left:2%;}
+}
+@-ms-keyframes myfirst 
+{
+	from {left:-80%;}
+	to {left:2%;}
+}
+
+@keyframes mysecond
+{
+	from {right:-80%;}
+	to {right:2%;}
+}
+
+@-webkit-keyframes mysecond
+{
+	from {right:-80%;}
+	to {right:2%;}
+}
+
+@-moz-keyframes mysecond 
+{
+	from {right:-80%;}
+	to {right:2%;}
+}
+
+@-o-keyframes mysecond 
+{
+	from {right:-80%;}
+	to {right:2%;}
+}
+@-ms-keyframes mysecond 
+{
+	from {right:-80%;}
+	to {right:2%;}
+}
+
+
+@keyframes mytext
+{
+	from {top:-10rem;}
+	to {top:16rem;}
+}
+
+@-webkit-keyframes mytext
+{
+	from {top:-10rem;}
+	to {top:16rem;}
+}
+
+@-moz-keyframes mytext 
+{
+	from {top:-10rem;}
+	to {top:16rem;}
+}
+
+@-o-keyframes mytext 
+{
+	from {top:-10rem;}
+	to {top:16rem;}
+}
+@-ms-keyframes mytext 
+{
+	from {top:-10rem;}
+	to {top:16rem;}
+}
+
+@keyframes mytexts
+{
+	from{bottom:-10rem;}
+	to {bottom:5rem;}
+}
+
+@-webkit-keyframes mytexts
+{
+	from {bottom:-10rem;}
+	to {bottom:5rem;}
+}
+
+@-moz-keyframes mytexts 
+{
+	from {bottom:-10rem;}
+	to {bottom:5rem;}
+}
+
+@-o-keyframes mytexts 
+{
+	from {bottom:-10rem;}
+	to {bottom:5rem;}
+}
+@-ms-keyframes mytexts 
+{
+	from {bottom:-10rem;}
+	to {bottom:5rem;}
+}

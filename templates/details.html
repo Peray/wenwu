@@ -1,0 +1,35 @@
+
+<ion-view hide-nav-bar="true">
+		<!-- <ion-nav-title>
+			<img class="header_img" src="images/logo_03.png" alt="">
+		</ion-nav-title> -->
+		<ion-header-bar class="title_bg">
+			<div class="buttons">
+				<div class="btn_img" ng-click="doSomething()" ui-sref="relic">
+					<img src="images/dt_j_03.png">
+				</div>
+			</div>
+
+			<h1 class="title title_text">
+				<img class="header_img" src="images/dt_logo_03.png" alt="">
+			</h1>
+		</ion-header-bar>
+		<ion-content class="has-header">
+			<section>
+				<div class="head_img">
+					<img ng-src="{{imgObj.src}}">
+				</div>
+			</section>
+			<div class="Btn_content">
+				<p class="content_title" ng-style="{'background-image':'url({{backurl}})'}"></p>
+				<ul class="list_ul" ng-style="{'background-image':'url({{backurl1}})'}" ng-click="details()">
+					<li class="list_details clearfix" ng-repeat="x in imgObj.content | filter:func">
+						<span>{{x.name}}</span>
+						<span>{{x.content}}</span>
+					</li>
+				</ul>
+			</div>
+		</ion-content>
+</ion-view>
+			
+

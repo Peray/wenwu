@@ -1,0 +1,102 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-03-01 17:03:08
+ * @version $Id$
+ */
+
+.login{
+	background-image: url(../images/bg2.png);
+}
+.main_img{
+	text-align: center;
+	margin-top:2.25rem;
+}
+.main_img>img{
+	width:60.2%;
+}
+.main_form{
+	margin-top: 4.58rem;
+}
+.pass_word{
+	margin-top: 2.41rem!important;
+}
+.item_border{
+	border: 2px solid #DB3122;
+	width:88%;
+	margin: 0 auto;
+	padding: 1px; 
+}
+.item_form{
+	width:100%;
+	height:3.17rem;
+	line-height: 3.17rem;
+	border: 1px solid #DB3122;
+}
+.item_form>label{
+	// text-align: center;
+	height:100%;
+	line-height: 3.17rem;
+	float: left;
+	width:40%;
+	padding-left:2%;
+}
+.item_form>label>img{
+	vertical-align: middle;
+	width:1.67rem;
+}
+.item_form>label>span{
+	vertical-align: middle;
+	font-size:1.4rem;
+}
+.item_form>input{
+	width: 60%;
+	height: 100%;
+	line-height: 3.17rem;
+	padding: 0;
+	float: left;
+	display: block;
+	background-color: rgba(255,255,255,0);
+	font-size: 1.4rem;
+}
+.second_label{
+	width:53%!important;
+}
+.text_pass{
+	width:25%!important;
+	font-size:1.4rem;
+}
+.text_pass ~span{
+	width: 22%;
+	height:100%;
+	line-height: 3.17rem;
+	color: #575757;
+	float: left;
+	display: block;
+	text-align: center;
+	// border-left: 1px solid #575757;
+	font-size: 1.4rem;	
+	padding-right:2%;	
+}
+.btn_list{
+	margin-bottom: 3.25rem!important;
+}
+.btn_lo{
+	height:5.5rem;
+	line-height: 4rem;
+	text-align: center;
+	color:#DB3122;
+	background:url(../images/dl_dl_14.png) 70% top no-repeat;
+	background-size:69.56%;
+	font-size:1.8rem;
+
+}
+.account{
+	text-align: right;
+	padding:0 3.7% 1.17rem 0; 
+}
+.account>a{
+	color: #575757;
+	font-size: 1.4rem;
+}

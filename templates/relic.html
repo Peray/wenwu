@@ -1,0 +1,13 @@
+<ion-view>
+	<ion-nav-title>
+		<img class="header_img" src="images/logo_03.png" alt="">
+	</ion-nav-title>
+	<ion-content class="has-header">
+		<div class="clearfix relicul">
+			<a ng-repeat="relic in dataset" href="#/relic/{{relic.id}}">
+				<img ng-src="{{relic.url}}" on-touch="touch()">
+				<p class="relic_text">{{relic.name}}</p>
+			</a>
+		</div>
+	</ion-content>
+</ion-view>

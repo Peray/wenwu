@@ -1,0 +1,22 @@
+
+<ion-view class="main">
+	<ion-nav-title>
+		<img class="header_img" src="images/logo_03.png" alt="">
+	</ion-nav-title>
+	<ion-content class="has-header">
+		<article class="main_ul">
+			<ul class="clearfix">
+				<li ng-repeat="x in dataset" ui-sref="map">
+					<!-- <img class="img_ower" ng-src="{{x.hurl}}" on-touch="touch(1)" ng-if="imgstate==0">
+					<img class="img_ower" ng-src="{{x.hurl_active}}" on-release="touch(0)" ng-if="imgstate==1"> -->
+					<img class="img_ower" ng-src="{{x.hurl}}" ng-click="click(x)">
+					<p class="img_text">{{x.hname}}</p>
+					<p class="img_date">{{x.date}}</p>
+				</li>
+			</ul>
+		</article>
+	</ion-content>
+</ion-view>
+
+
+

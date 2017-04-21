@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-03-01 17:03:08
+ * @version $Id$
+ */
+.main{
+	background-image:url(../images/dl_bg_06.png); 
+}
+article{
+	width:100%;
+	padding:0 4.64%;
+}
+.main_ul{
+	margin-top:3.75rem;
+}
+article>ul>li{
+	width:50%;
+	float:left;
+	text-align: center;
+	margin-bottom:2.41rem;
+}
+// header{
+// 	background-color: #000!important;
+// }
+.bar.bar-positive {
+    border-color: #000!important;
+    background-color: #000!important;
+}
+.item-icon-left .icon {
+    color: #fff;
+}
+.img_ower{
+	width:11.75rem;
+}
+.img_text{
+	margin:0;
+	text-align: center;
+	font-size:1.6rem;
+	color: #d2b17d;
+	font-weight: 500;
+}
+.img_date{
+	color: #d2b17d;
+}
